@@ -1,0 +1,23 @@
+public No recupera(Int pos){
+ 
+  if(pos<5elemento){
+    No elemento=noBase;
+ 
+    for(int x=0;x<pos;x++){
+      elemento=elemento.getProximo();
+    }
+    return elemento;
+  }
+}
+ 
+public No remover(){
+ 
+        No elemento=noBase;
+        No posAtual;
+        for(int x=0;x<pos;x++){
+                posAtual=elemento;
+                elemento=elemento.getProximo();
+        }        
+        posAtual=elemento.getProximo();
+        QTDEElemento--;
+}
