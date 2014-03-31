@@ -1,4 +1,3 @@
-
 package grup2;
 
 public class No {
@@ -18,4 +17,8 @@ public class No {
    
     public No getProximo() {
         return proximo;
+    }
+    
+    public void setProximo(No proximo){
+        this.proximo = proximo;
     }
